@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+    background-color:  #161717;
+}
+h2 {
+    color: white;
+}
+.containter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 450px;
+    margin: auto;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+.google-btn {
+    height: 30px;
+    background-color: #5195EE;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    color: white;
+}
+.google-btn span {
+    background-color: transparent;
+}
+.google-btn:hover {
+    opacity: 0.8;
+}
+.google-btn picture {
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-btn picture img {
+    width: 75%;
+}
+.google-btn span {
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+.twitter-btn {
+    background-color: #5195EE;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    align-items: center;
+}
+.twitter-btn:hover {
+opacity: 0.8;
+}
+.twitter-btn picture {
+    width: 26px;
+    display: flex;
+    align-items: center;
+}
+.twitter-btn picture img {
+    width: 100%;
+    background-color: white;
+}
+.separator {
+    display: flex;
+    width: 80%;
+    gap: 15px;
+}
+hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #6e6d7a;
+}
+.separator span {
+    color: #767581;
+}
+.section-inputs {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    color: white;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+label {
+    width: 100%;
+}
+
+label input {
+    width: 100%;
+    background-color: #212121;
+    border: none;
+    border-radius: 4px;
+    padding: 3px;
+    outline: none;
+    font-size: 11pt;
+}
+label input:hover {
+    background-color: #161717;
+    box-shadow: 0 0 5px #EA4C89;
+}
+label input:focus {
+    background-color: #212121;
+    box-shadow: 0 0 5px #EA4C89;
+}
+label[for="email"] {
+    width: 95%;
+}
+label[for="password"] {
+    width: 95%;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox span {
+    font-size: small;
+}
+.checkbox input[type="checkbox"] {
+    width: 20px;
+    border-radius: 0;
+}
+
+.checkbox input[type="checkbox"]:hover {
+    box-shadow: none;
+}
+.checkbox input[type="checkbox"]:focus {
+    box-shadow: none;
+    border: 1px solid #4f3cc9;
+    background-color: #4f3cc9;
+}
+.checkbox input[type="checkbox"]:checked {
+    box-shadow: none;
+    border: 1px solid #4f3cc9;
+    background-color: #4f3cc9;
+}
+
+.button-submit {
+    width: 95%;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #EA4C89;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-submit:hover {
+    opacity: 0.8;
+}

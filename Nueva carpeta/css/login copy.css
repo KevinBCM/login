@@ -47,6 +47,7 @@ h2 {
 }
 .google-btn picture img {
     width: 75%;
+    background-color: transparent;
 }
 .google-btn span {
     color: white;
